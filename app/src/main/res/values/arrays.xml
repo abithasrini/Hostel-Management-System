@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="block">
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+
+    <string-array name="A">
+        <item>Ground Floor</item>
+        <item>First Floor</item>
+    </string-array>
+
+    <string-array name="B">
+        <item>Ground Floor</item>
+        <item>First Floor</item>
+        <item>Second Floor</item>
+        <item>Third Floor</item>
+    </string-array>
+
+    <string-array name="blood_group">
+        <item>A +ve</item>
+        <item>B +ve</item>
+        <item>O +ve</item>
+        <item>A -ve</item>
+        <item>B -ve</item>
+        <item>O -ve</item>
+        <item>AB +ve</item>
+        <item>AB -ve</item>
+    </string-array>
+
+    <string-array name="month">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>2021</item>
+    </string-array>
+
+    <string-array name="room_no" >
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+    </string-array>
+    <string-array name="college_name">
+        <item>CIET</item>
+        <item>CIMAT</item>
+        <item>KKCAS</item>
+        <item>SOA</item>
+    </string-array>
+    <string-array name="CIET">
+        <item>B E</item>
+        <item>M E</item>
+        <item>B Tech</item>
+        <item>MBA</item>
+    </string-array>
+    <string-array name="B_E">
+        <item>CSE</item>
+        <item>Civil</item>
+        <item>Mech</item>
+        <item>ECE</item>
+        <item>EEE</item>
+        <item>MCT</item>
+        <item>S&amp;H</item>
+    </string-array>
+    <string-array name="B.Tech">
+        <item>IT</item>
+    </string-array>
+    <string-array name="B.A">
+        <item>English</item>
+    </string-array>
+    <string-array name="M.E">
+        <item>CSE</item>
+        <item>(ED)Engineering Design</item>
+        <item>(CS)Communication System</item>
+    </string-array>
+
+    <string-array name="SOA">
+        <item>B Arch</item>
+    </string-array>
+
+    <string-array name="KKCAS">
+        <item>B Sc</item>
+        <item>B Com</item>
+        <item>BCA</item>
+        <item>B A</item>
+        <item>M Com</item>
+        <item>M Sc</item>
+        <item>M Phil(Full Time)</item>
+        <item>Ph D(Full Time)</item>
+        <item>M Phil(Part Time)</item>
+        <item>Ph D(Part Time)</item>
+        <item>PGDCA</item>
+    </string-array>
+    <string-array name="CIMAT">
+        <item>MBA</item>
+        <item>MCA</item>
+        <item>M Phil</item>
+        <item>Ph D</item>
+    </string-array>
+    <string-array name="M.Phil_Ph.D">
+        <item>Management/Computer Science</item>
+    </string-array>
+    <string-array name="B.Sc">
+        <item>Maths+Computer Application</item>
+        <item>CS</item>
+        <item>IT</item>
+    </string-array>
+    <string-array name="M.Sc">
+        <item>CS</item>
+        <item>IT</item>
+    </string-array>
+    <string-array name="B.Com">
+        <item>General</item>
+        <item>Computer Application</item>
+        <item>Professional Accountancy</item>
+    </string-array>
+    <string-array name="M.Com">
+        <item>Computer Application</item>
+        <item>International Business</item>
+    </string-array>
+
+</resources>

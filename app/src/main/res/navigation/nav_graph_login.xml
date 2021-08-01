@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_login"
+    app:startDestination="@id/LoginFragment">
+
+    <fragment
+        android:id="@+id/LoginFragment"
+        android:name="com.android.HMS.ui.LRF.Login.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_LoginFragment_to_RegisterFragment"
+            app:destination="@id/RegisterFragment" />
+        <action
+            android:id="@+id/action_LoginFragment_to_forgetPasswordFragment"
+            app:destination="@id/forgetPasswordFragment" />
+        <action
+            android:id="@+id/action_LoginFragment_to_mainMenu"
+            app:destination="@id/mainMenu">
+            <argument
+                android:name="HMS"
+                app:argType="string"
+                android:defaultValue="HMS001"/>
+        </action>
+        <argument
+            android:name="HMS"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/RegisterFragment"
+        android:name="com.android.HMS.ui.LRF.Register.RegisterFragment"
+        android:label="Register"
+        tools:layout="@layout/fragment_register">
+        <action
+            android:id="@+id/action_RegisterFragment_to_LoginFragment"
+            app:destination="@id/LoginFragment">
+        </action>
+        <action
+            android:id="@+id/action_RegisterFragment_to_mainMenu"
+            app:destination="@id/mainMenu" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgetPasswordFragment"
+        android:name="com.android.HMS.ui.LRF.ForgetPassword.ForgetPasswordFragment"
+        android:label="fragment_forget_password"
+        tools:layout="@layout/fragment_forget_password" >
+        <action
+            android:id="@+id/action_forgetPasswordFragment_to_LoginFragment"
+            app:destination="@id/LoginFragment" />
+    </fragment>
+    <activity
+        android:id="@+id/mainMenu"
+        android:name="com.android.HMS.ui.MainMenu.MainMenu"
+        android:label="activity_main_menu"
+        tools:layout="@layout/activity_main_menu" />
+</navigation>
